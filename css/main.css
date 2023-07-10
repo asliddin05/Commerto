@@ -197,6 +197,7 @@ body {
     align-items: center;
     gap: 15px;
 }
+
 .customer__btn:after {
     content: "";
     width: 24px;
@@ -204,4 +205,60 @@ body {
     background-image: url(../images/arrow.png);
     background-repeat: no-repeat;
     background-position: center;
+}
+
+/* work */
+
+.work {
+    padding-block: 95px;
+    background-color: rgba(74, 153, 211, 0.10);
+}
+
+.work__title {
+    color: var(--text-blue);
+    text-align: center;
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 88px;
+}
+
+.work__list {
+    display: flex;
+    justify-content: center;
+    gap: 106px;
+    align-items: center;
+}
+
+.work__item {
+    width: 224px;
+    text-align: center;
+}
+
+.work__item:before {
+    content: "";
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background-image: url(../images/person.svg);
+    margin-bottom: 30px;
+}
+
+.work__item:nth-child(2):before {
+    background-image: url(../images/shield.svg);
+}
+
+.work__item:last-child:before {
+    background-image: url(../images/emoji.svg);
+}
+
+.work__sub-title {
+    color: var(--text-black);
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.work__sub-text {
+    color: var(--text-black);
+    line-height: 26px;
 }
