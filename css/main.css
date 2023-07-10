@@ -68,3 +68,52 @@ body {
 }
 
 /* hero */
+
+.hero {
+    padding-block: 20px 67px;
+}
+
+.hero__container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.hero__content {
+    max-width: 636px;
+    margin-right: 123px;
+}
+
+.hero__title {
+    color: var(--text-secondary-color);
+    font-size: 50px;
+    line-height: 70px;
+    letter-spacing: 1px;
+    margin-bottom: 14px;
+}
+
+.hero__text {
+    color: var(--text-secondary-color);
+    font-size: 20px;
+    line-height: 36px;
+    margin-bottom: 60px;
+}
+
+.hero__btn-block {
+    display: flex;
+    gap: 20px;
+}
+
+.hero__btn {
+    display: inline-block;
+    width: 180px;
+    height: 60px;
+    border-radius: 5px;
+    background-color: var(--color-blue);
+    background-image: url(../images/google-play.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.hero__btn:last-child {
+    background-image: url(../images/app-store.png);
+}
